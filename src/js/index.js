@@ -15,12 +15,3 @@ window.onload = () => {
       if (cell.innerHTML == 1) cell.style.background = "gray";
     }
   }
-
-  const fire = () => {
-    var fired =
-      parent.childNodes[Math.floor(Math.random() * 10)].childNodes[
-        Math.floor(Math.random() * 10)
-      ];
-    fired.style.background = "red";
-  };
-
