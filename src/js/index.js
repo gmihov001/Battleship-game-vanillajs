@@ -24,9 +24,3 @@ window.onload = () => {
     fired.style.background = "red";
   };
 
-  var button = document.createElement("button");
-  button.innerHTML = "FIRE!";
-  button.style.background = "red";
-  parent.appendChild(button);
-  button.addEventListener("click", fire);
-};
