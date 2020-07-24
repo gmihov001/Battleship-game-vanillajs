@@ -1,3 +1,6 @@
+import "../style/index.scss";
+import "../assets/img/4geeks.ico";
+
 window.onload = () => {
   var parent = document.querySelector(".container");
 
@@ -10,9 +13,9 @@ window.onload = () => {
       var cell = document.createElement("div");
       row.appendChild(cell);
       cell.innerHTML = Math.floor(Math.random() * 2);
-      cell.style.border = "1px solid grey";
+      cell.style.border = "1px solid darkgrey";
       cell.style.padding = "15px";
-      if (cell.innerHTML == 1) cell.style.background = "gray";
+      if (cell.innerHTML == 1) cell.style.background = "lightgray";
     }
   }
 
